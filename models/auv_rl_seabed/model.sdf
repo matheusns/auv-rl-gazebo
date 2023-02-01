@@ -8,7 +8,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://auv_rl_seabed/meshes/seabed_with_noise_2.dae</uri>
+            <uri>model://auv_rl_seabed/meshes/seabed_with_noise.dae</uri>
             <scale>2.0 2.0 1.0</scale>
           </mesh>
         </geometry>
@@ -18,7 +18,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://auv_rl_seabed/meshes/seabed_with_noise_2.dae</uri>
+            <uri>model://auv_rl_seabed/meshes/seabed_with_noise.dae</uri>
             <scale>2.0 2.0 1.0</scale>
           </mesh>
         </geometry>
@@ -32,5 +32,3 @@
     </link>
     </model>
 </sdf>
-
- <!-- export GAZEBO_RESOURCE_PATH=/usr/share/gazebo-9::/home/matheusns/catkin_ws/src/auv-rl/auv-rl-gazebo/ -->

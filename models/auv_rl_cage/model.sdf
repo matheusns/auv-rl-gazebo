@@ -12,7 +12,6 @@
     <geometry>
       <mesh>
         <uri>model://auv_rl_cage/meshes/cage.dae</uri>
-            <!-- <scale>0.0 0.005 0.002</scale> -->
       </mesh>
     </geometry>
   </visual>

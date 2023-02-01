@@ -22,21 +22,40 @@
         output="screen">
         <rosparam subst_value="true">
             meshes:
-                herkules_seabed:
-                    mesh: package://uuv_gazebo_worlds/models/herkules_seabed/meshes/herkules_seabed.dae
+                auv_rl_seabed:
+                    mesh: package://auv_rl_gazebo/models/auv_rl_seabed/meshes/seabed_with_noise.dae
                     pose:
-                      position: [0, 0, -60]
-                    scale: [4, 4, 1]
-                herkules_ship_wreck:
-                    mesh: package://uuv_gazebo_worlds/models/herkules_ship_wreck/meshes/herkules.dae
+                        position: [0, 0, -99]
+                        scale: [2, 2, 1]
+                auv_rl_cage:
+                    mesh: package://auv_rl_gazebo/models/auv_rl_cage/meshes/cage.dae
                     pose:
-                      position: [0, 0, -60]
-                      orientation: [0, 0, 1.57]
-                cage:
-                    mesh: package://uuv_gazebo_worlds/models/herkules_seabed/meshes/herkules_seabed.dae
+                        position: [10 22 -98]
+                        orientation: [0, 0, 1.57]
+                surface:
+                    plane: [180, 180, 0.1]
                     pose:
-                      position: [0, 0, -60]
-                    scale: [4, 4, 1]
+                        position: [0, 0, 0]
+                bottom:
+                    plane: [180, 180, 0.1]
+                    pose:
+                        position: [0, 0, -100]
+                north_wall:
+                    plane: [180, 0.1, 100]
+                    pose:
+                        position: [0, 90, -50.0]
+                south_wall:
+                    plane: [180, 0.1, 100]
+                    pose:
+                        position: [0, -90, -50.0]
+                east_wall:
+                    plane: [0.1, 180, 100]
+                    pose:
+                        position: [90, 0, -50.0]
+                west_wall:
+                    plane: [0.1, 180, 100]
+                    pose:
+                        position: [-90, 0, -50.0]
         </rosparam>
   </node>
 

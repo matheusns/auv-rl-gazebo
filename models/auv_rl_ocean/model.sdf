@@ -17,7 +17,7 @@
                     <uri>file://auv_rl_ocean/materials/scripts/water.material</uri>
                     <name>auv_rl/StaticDeepWater</name>
                 </script>
-            </material>
+            </material> 
         </visual>
 
         <visual name="bottom">
@@ -65,7 +65,7 @@
         </material>
       </visual>
 
-      <visual name="weast_wall">
+      <visual name="east_wall">
         <pose>90 0 -50.0 0 0 0</pose>        
         <geometry>
           <box>                        

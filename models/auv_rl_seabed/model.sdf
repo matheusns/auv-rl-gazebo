@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+<!-- AUV RL seabed main structure -->
+    <model name="auv_rl_seabed">
+      <static>true</static>
+        <link name="seabed">
+      <collision name="seabed">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://auv_rl_seabed/meshes/seabed_with_noise_2.dae</uri>
+            <scale>2.0 2.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="seabed">
+        <cast_shadows>true</cast_shadows>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://auv_rl_seabed/meshes/seabed_with_noise_2.dae</uri>
+            <scale>2.0 2.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://auv_rl_seabed/materials/scripts/sand.material</uri>
+            <name>auv-rl/seabed</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    </model>
+</sdf>
+
+ <!-- export GAZEBO_RESOURCE_PATH=/usr/share/gazebo-9::/home/matheusns/catkin_ws/src/auv-rl/auv-rl-gazebo/ -->

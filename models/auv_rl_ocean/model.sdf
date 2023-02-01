@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<!-- Ocean dimensions = 30 x 30 x 100 (depth rating = 100m) -->
+<sdf version="1.5">
+  <model name="auv_rl_ocean">
+    <static>true</static>
+    <link name="auv_rl_ocean">
+        <visual name="surface">
+            <pose>0 0 0 0 0 0</pose>        
+            <cast_shadows>false</cast_shadows>
+            <geometry>
+                <box>                        
+                    <size>180 180 0.1</size>
+                </box>
+            </geometry>                
+            <material>
+                <script>
+                    <uri>file://auv_rl_ocean/materials/scripts/water.material</uri>
+                    <name>auv_rl/StaticDeepWater</name>
+                </script>
+            </material>
+        </visual>
+
+        <visual name="bottom">
+        <pose>0 0 -100.0 0 0 0</pose>        
+        <geometry>
+          <box>                        
+            <size>180 180 0.1</size>
+          </box>
+        </geometry>                
+        <material>
+          <script>
+            <uri>file://auv_rl_ocean/materials/scripts/water.material</uri>
+            <name>auv_rl/SeaWall</name>
+          </script>
+        </material>
+      </visual>
+
+      <visual name="north_wall">
+        <pose>0 90 -50.0 0 0 0</pose>        
+        <geometry>
+          <box>                        
+            <size>180 0.1 100</size>
+          </box>
+        </geometry>                
+        <material>
+          <script>
+            <uri>file://auv_rl_ocean/materials/scripts/water.material</uri>
+            <name>auv_rl/SeaWall</name>
+          </script>
+        </material>
+      </visual>
+
+      <visual name="south_wall">
+        <pose>0 -90 -50.0 0 0 0</pose>        
+        <geometry>
+          <box>                        
+            <size>180 0.1 100</size>
+          </box>
+        </geometry>                
+        <material>
+          <script>
+            <uri>file://auv_rl_ocean/materials/scripts/water.material</uri>
+            <name>auv_rl/SeaWall</name>
+          </script>
+        </material>
+      </visual>
+
+      <visual name="weast_wall">
+        <pose>90 0 -50.0 0 0 0</pose>        
+        <geometry>
+          <box>                        
+            <size>0.1 180 100</size>
+          </box>
+        </geometry>                
+        <material>
+          <script>
+            <uri>file://auv_rl_ocean/materials/scripts/water.material</uri>
+            <name>auv_rl/SeaWall</name>
+          </script>
+        </material>
+      </visual>
+
+      <visual name="west_wall">
+        <pose>-90 0 -50.0 0 0 0</pose>        
+        <geometry>
+          <box>                        
+            <size>0.1 180 100</size>
+          </box>
+        </geometry>                
+        <material>
+          <script>
+            <uri>file://auv_rl_ocean/materials/scripts/water.material</uri>
+            <name>auv_rl/SeaWall</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

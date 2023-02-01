@@ -1,0 +1,38 @@
+material auv_rl/SeaWall
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+       ambient 0.616687 0.90461 1 0.7
+       diffuse 0.616687 0.90461 1 0.7
+       specular 1 1 1 1 20
+       emissive 0.0 0.0 0.0 1.0
+       scene_blend alpha_blend
+
+    }
+  }
+}
+
+material auv_rl/StaticDeepWater
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 0.8
+      diffuse 0.5 0.5 0.5 0.8
+
+      scene_blend alpha_blend
+
+      texture_unit
+      {
+        texture ../textures/deep_water_surface.jpg
+        filtering bilinear
+        max_anisotropy 16
+        scale 1.0 1.0
+      }
+    }
+  }
+}

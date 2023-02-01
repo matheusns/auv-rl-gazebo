@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--Matheus Santos-->
+
+<sdf version="1.4">
+
+<model name="auv_rl_cage">
+  <static>true</static>
+  <link name="cage_link">
+  <visual name="cage_visual">
+    <pose>0 0 -0 0 0 0</pose>
+    <cast_shadows>false</cast_shadows>
+    <geometry>
+      <mesh>
+        <uri>model://auv_rl_cage/meshes/cage.dae</uri>
+            <!-- <scale>0.0 0.005 0.002</scale> -->
+      </mesh>
+    </geometry>
+  </visual>
+  </link>
+</model>
+</sdf>
+

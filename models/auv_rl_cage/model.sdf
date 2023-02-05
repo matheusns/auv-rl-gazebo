@@ -7,7 +7,7 @@
   <static>true</static>
   <link name="cage_link">
   <visual name="cage_visual">
-    <pose>0 0 -0 0 0 0</pose>
+    <pose>0 0 0 0 0 0</pose>
     <cast_shadows>false</cast_shadows>
     <geometry>
       <mesh>

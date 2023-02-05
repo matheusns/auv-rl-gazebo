@@ -37,7 +37,7 @@
     </spherical_coordinates>
 
     <!-- Global light source -->
-    <light type="directional" name="sun_diffuse_1">
+    <!-- <light type="directional" name="sun_diffuse_1">
       <pose>-200 -200 100 0 0 0</pose>
       <diffuse>0.6 0.6 0.6 1</diffuse>
       <specular>0 0 0 1</specular>
@@ -59,7 +59,7 @@
       <specular>0.2 0.2 0.2 1</specular>
       <direction>0.5 0.5 -1</direction>
       <cast_shadows>true</cast_shadows>
-    </light>
+    </light> -->
 
     <!-- Seabed terrain around Munkholmen model -->
     <include>
@@ -76,6 +76,32 @@
       <uri>model://auv_rl_cage</uri>
       <pose>10 22 -98 0 0 1.57</pose>
     </include>
+
+    <include>
+      <uri>model://aruco_00</uri>
+      <pose>6.933307 20.933668 -97.129425 1.57 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://aruco_01</uri>
+      <pose>6.676721 23.047071 -97.137733 1.57 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://aruco_02</uri>
+      <pose>6.948525 23.025829 -97.873337 1.57 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://aruco_03</uri>
+      <pose>6.936173 23.016216 -98.647247 1.57 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://aruco_04</uri>
+      <pose>6.932261 20.977167 -97.829018 1.57 0 1.57</pose>
+    </include>
+
     
     <plugin name="underwater_current_plugin" filename="libuuv_underwater_current_ros_plugin.so">
       <namespace>hydrodynamics</namespace>

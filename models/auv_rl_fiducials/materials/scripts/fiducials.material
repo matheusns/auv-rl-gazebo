@@ -1,0 +1,99 @@
+material Aruco/id_00
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/7x7_1000-0.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/id_01
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/7x7_1000-1.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/id_02
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/7x7_1000-2.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/id_03
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/7x7_1000-3.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material Aruco/id_04
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/7x7_1000-4.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}

@@ -30,7 +30,7 @@
                 auv_rl_cage:
                     mesh: package://auv_rl_gazebo/models/auv_rl_cage/meshes/cage.dae
                     pose:
-                        position: [10 22 -98]
+                        position: [10, 22, -98]
                         orientation: [0, 0, 1.57]
                 surface:
                     plane: [180, 180, 0.1]

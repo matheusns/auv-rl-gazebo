@@ -97,3 +97,23 @@ material Aruco/id_04
     }
   }
 }
+
+material Aruco/id_05
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/7x7_1000-5.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}

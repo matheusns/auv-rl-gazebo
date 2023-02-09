@@ -14,7 +14,15 @@
     <arg name="verbose" value="true" />
   </include>
 
+
+
   <include file="$(find uuv_assistants)/launch/publish_world_ned_frame.launch"/>
+  <!-- Include static tf between the fiducials ang the cage in order to get the docking starting point ground thruth  -->
+  <include file="$(find auv_rl_gazebo)/launch/cage_gt_tf.launch"/>
+  <!-- Publishes the transformation between the fiducials and the docking start point -->
+  <include file="$(find auv_rl_gazebo)/launch/fiducial_to_docking_tf.launch"/>
+
+
   
   <node name="publish_world_models"
         pkg="uuv_assistants"

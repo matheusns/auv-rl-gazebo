@@ -74,37 +74,37 @@
 
     <include>
       <uri>model://auv_rl_cage</uri>
-      <pose>10 22 -98 0 0 1.57</pose>
+      <pose>10 22 -98 0 0 0</pose>
     </include>
 
     <include>
       <uri>model://aruco_00</uri>
-      <pose>6.933791 21.511263 -97.159271 -1.57 -1.57 -1.57</pose>
+      <pose>6.933791 21.511263 -97.159271 0 1.57 0</pose>
     </include>
 
     <include>
       <uri>model://aruco_01</uri>
-      <pose>6.950261 22.502184 -97.160675 -1.57 -1.57 -1.57</pose>
+      <pose>6.950261 22.502184 -97.160675 0 1.57 0</pose>
     </include>
 
     <include>
       <uri>model://aruco_02</uri>
-      <pose>6.948525 22.871216 -98.379211 -1.57 -1.57 -1.57</pose>
+      <pose>6.948525 22.871216 -98.379211 0 1.57 0</pose>
     </include>
 
     <include>
       <uri>model://aruco_03</uri>
-      <pose>6.935330 22.003485 -98.601974 -1.57 -1.57 -1.57</pose>
+      <pose>6.935330 22.003485 -98.601974 0 1.57 0</pose>
     </include>
 
     <include>
       <uri>model://aruco_04</uri>
-      <pose>6.932824 21.141088 -98.372108 -1.57 -1.57 -1.57</pose>
+      <pose>6.932824 21.141088 -98.372108 0 1.57 0</pose>
     </include>
 
     <include>
       <uri>model://aruco_05</uri>
-      <pose>11.290340 22.011326 -97.912476 -1.57 -1.57 -1.57</pose>
+      <pose>11.290340 22.011326 -97.912476 0 1.57 0</pose>
     </include>
     
     <plugin name="underwater_current_plugin" filename="libuuv_underwater_current_ros_plugin.so">

@@ -1,0 +1,8 @@
+<launch>
+<node pkg="tf" type="static_transform_publisher" name="fiducial_00_to_docking" args="-0.490 -0.842 1.933 0.785 1.570 -0.785 fiducial_0 cage_docking 100"/>
+<node pkg="tf" type="static_transform_publisher" name="fiducial_01_to_docking" args="0.501 -0.841 1.950 0.785 1.570 -0.785 fiducial_1 cage_docking 100"/>
+<node pkg="tf" type="static_transform_publisher" name="fiducial_02_to_docking" args="0.870, 0.378, 1.950 0.785 1.570 -0.785 fiducial_2 cage_docking 100"/>
+<node pkg="tf" type="static_transform_publisher" name="fiducial_03_to_docking" args="0.002, 0.600, 1.936 0.785 1.570 -0.785 fiducial_3 cage_docking 100"/>
+<node pkg="tf" type="static_transform_publisher" name="fiducial_04_to_docking" args="-0.860, 0.371, 1.932 0.785 1.570 -0.785 fiducial_4 cage_docking 100"/>
+</launch>
+

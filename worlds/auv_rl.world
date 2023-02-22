@@ -64,7 +64,7 @@
     <!-- Seabed terrain around Munkholmen model -->
     <include>
       <uri>model://auv_rl_seabed</uri>
-      <pose>0 0 -99 0 0 0</pose>
+      <pose>-0.775065 -1.845243 -99 0 0 0</pose>
     </include>
 
     <include>
@@ -106,6 +106,31 @@
       <uri>model://aruco_05</uri>
       <pose>11.290340 22.011326 -97.912476 0 1.57 0</pose>
     </include>
+
+    <include>
+      <uri>model://april_tag_00</uri>
+      <pose>6.935508 21.998852 -97.156487 0 1.57 0</pose>
+    </include>
+
+    <include>
+      <uri>model://april_tag_01</uri>
+      <pose>6.935649 22.854807 -97.333160 0 1.57 0</pose>
+    </include>
+
+    <include>
+      <uri>model://april_tag_02</uri>
+      <pose>6.936663 22.493441 -98.606949 0 1.57 0</pose>
+    </include>
+
+    <include>
+      <uri>model://april_tag_03</uri>
+      <pose>6.936663 21.501818 -98.606949 0 1.57 0</pose>
+    </include>
+
+    <include>
+      <uri>model://april_tag_04</uri>
+      <pose>6.935657 21.146395 -97.342987 0 1.57 0</pose>
+    </include>
     
     <plugin name="underwater_current_plugin" filename="libuuv_underwater_current_ros_plugin.so">
       <namespace>hydrodynamics</namespace>
@@ -140,8 +165,8 @@
     <plugin name="sc_interface" filename="libuuv_sc_ros_interface_plugin.so"/>
 
     <gui fullscreen='0'>
-  <camera name='user_camera'>
-        <pose frame=''>2.10021 22.0855 -97.1612 0 0.113797 -0.265806</pose>
+      <camera name='user_camera'>
+        <pose frame=''>-5.96717 31.2734 -87.1456 0 0.294006 -1.07214</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>

@@ -1,0 +1,7 @@
+<launch>
+<node pkg="tf" type="static_transform_publisher" name="cage_2_fiducial_0" args="-3.0662089999999997 -0.4887370000000004 0.8407289999999961 -1.57 0 1.57 cage_link fiducial_0_gt 100" />
+<node pkg="tf" type="static_transform_publisher" name="cage_2_fiducial_1" args="-3.0497389999999998 0.5021839999999997  0.8393250000000023 -1.57 0 1.57 cage_link fiducial_1_gt 100" />
+<node pkg="tf" type="static_transform_publisher" name="cage_2_fiducial_2" args="-3.051475 0.8712160000000004 -0.37921099999999797 -1.57 0 1.57 cage_link fiducial_2_gt 100" />
+<node pkg="tf" type="static_transform_publisher" name="cage_2_fiducial_3" args="-3.0646699999999996 0.0034850000000012926 -0.6019739999999985 -1.57 0 1.57 cage_link fiducial_3_gt 100" />
+<node pkg="tf" type="static_transform_publisher" name="cage_2_fiducial_4" args="-3.067176 -0.8589120000000001 -0.3721079999999972 -1.57 0 1.57 cage_link fiducial_4_gt 100" />
+</launch>

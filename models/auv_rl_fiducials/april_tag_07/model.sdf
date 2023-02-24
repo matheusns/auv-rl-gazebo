@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="april_tag_02">    
+  <model name="april_tag_07">    
     <static>true</static>
-    <link name="april_tag_02">
+    <link name="april_tag_07">
       <pose>0 0 0 0 0 0</pose>
       <inertial>
         <mass>0.0001</mass>
@@ -16,7 +16,7 @@
         </inertia>
       </inertial>
 
-      <collision name="april_tag_02">
+      <collision name="april_tag_07">
         <pose>0 0 0 0 0 0</pose>
         <geometry>
             <box>
@@ -25,7 +25,7 @@
         </geometry>
       </collision>
 
-      <visual name="april_tag_02">
+      <visual name="april_tag_07">
         <pose>0 0 0 0 0 0</pose>
         <geometry>
             <box>
@@ -35,10 +35,10 @@
         <material>
           <script>
             <uri>file://models/auv_rl_fiducials/materials/scripts/fiducials.material</uri>
-            <name>AprilTag/id_02</name>
+            <name>AprilTag/id_07</name>
           </script>
         </material>
       </visual>
     </link>
   </model>
-</sdf>
+</sdf> 

@@ -14,8 +14,6 @@
     <arg name="verbose" value="true" />
   </include>
 
-
-
   <include file="$(find uuv_assistants)/launch/publish_world_ned_frame.launch"/>
   <!-- Include static tf between the fiducials ang the cage in order to get the docking starting point ground thruth  -->
   <include file="$(find auv_rl_gazebo)/launch/cage_gt_tf.launch"/>
@@ -29,7 +27,7 @@
                 auv_rl_seabed:
                     mesh: package://auv_rl_gazebo/models/auv_rl_seabed/meshes/seabed_with_noise.dae
                     pose:
-                        position: [0, 0, -99]
+                        position: [-0.775065, -1.845243, -99]
                         scale: [2, 2, 1]
                 auv_rl_cage:
                     mesh: package://auv_rl_gazebo/models/auv_rl_cage/meshes/cage.dae

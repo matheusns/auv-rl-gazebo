@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<!-- Ocean dimensions = 30 x 30 x 100 (depth rating = 100m) -->
+<!-- Ocean dimensions = 180 x 180 x 100 (depth rating = 100m) -->
 <sdf version="1.5">
   <model name="auv_rl_ocean">
     <static>true</static>

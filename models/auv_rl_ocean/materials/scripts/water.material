@@ -5,11 +5,18 @@ material auv_rl/SeaWall
   {
     pass
     {
-       ambient 0 0 0 0
-       diffuse 0 0 0 0
-       specular 0 0 0 0 0
-       emissive 0 0 0 0 
+       ambient 0.5 0.5 0.5 0.8
+       diffuse 0.5 0.5 0.5 0.8
+       
        scene_blend alpha_blend
+
+       texture_unit
+      {
+        texture ../textures/black.jpg
+        filtering bilinear
+        max_anisotropy 16
+        scale 1.0 1.0
+      }
 
     }
   }
@@ -28,7 +35,7 @@ material auv_rl/StaticDeepWater
 
       texture_unit
       {
-        texture ../textures/deep_water_surface.jpg
+        texture ../textures/black.jpg
         filtering bilinear
         max_anisotropy 16
         scale 1.0 1.0

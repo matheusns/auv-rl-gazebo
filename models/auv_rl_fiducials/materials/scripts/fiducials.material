@@ -217,3 +217,402 @@ material AprilTag/id_10
     }
   }
 }
+material AprilTag/id_11
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00011.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_12
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00012.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_13
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00013.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_14
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00014.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_15
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00015.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_16
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00016.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_17
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00017.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_18
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00018.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_19
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00019.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_20
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00020.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_21
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00021.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_22
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00022.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_23
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00023.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_24
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00024.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_25
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00025.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_26
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00026.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_27
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00027.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_28
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00028.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_29
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00029.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material AprilTag/id_30
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 0
+
+      texture_unit
+      {
+        texture ../textures/tag41_12_00030.png
+        filtering bilinear
+        max_anisotropy 16
+      }
+    }
+  }
+}

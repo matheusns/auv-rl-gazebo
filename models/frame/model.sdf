@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--Matheus Santos-->
+
+<sdf version="1.4">
+
+<model name="frame">
+  <static>true</static>
+  <link name="frame">
+  <visual name="frame">
+    <pose>0 0 0 0 0 0</pose>
+    <cast_shadows>false</cast_shadows>
+    <geometry>
+      <mesh>
+        <uri>model://frame/meshes/frame.dae</uri>
+        <scale>0.01 0.01 0.01</scale>
+      </mesh>
+    </geometry>
+    <material>
+        <script>
+            <uri>file://frame/materials/scripts/green.material</uri>
+            <name>green</name>
+        </script>
+    </material>
+  </visual>
+  </link>
+</model>
+</sdf>
+

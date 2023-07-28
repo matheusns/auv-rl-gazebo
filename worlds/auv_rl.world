@@ -116,48 +116,28 @@
       <pose>11.290340 22.011326 -97.912476 0 1.57 0</pose>
     </include>
 
-    <!-- Right side tags 11-18 -->
+    <!-- Right side tags 11-14 -->
     <include>
       <uri>model://april_tag_11</uri>
-      <pose>7.252775 20.864759 -97.421700 -1.57 1.57 0</pose>
+      <pose>7.252775 20.86 -97.421700 -1.57 1.57 0</pose>
     </include>
 
     <include>
       <uri>model://april_tag_12</uri>
-      <pose>7.252775 20.864735 -98.410072 -1.57 1.57 0</pose>
+      <pose>7.252775 20.86 -98.410072 -1.57 1.57 0</pose>
     </include>
-<!-- 
+
     <include>
       <uri>model://april_tag_13</uri>
-      <pose>8.390718 20.863829 -98.004356 1.570798 1.077837 3.140800</pose>
+      <pose>12.709688 20.86 -97.422226 -1.57 1.57 0</pose>
     </include>
 
     <include>
       <uri>model://april_tag_14</uri>
-      <pose>9.724646 20.862766 -97.340195 -1.57 1.57 0</pose>
+      <pose>12.673615 20.86 -98.409119 -1.57 1.57 0</pose>
     </include>
 
-    <include>
-      <uri>model://april_tag_15</uri>
-      <pose>10.168945 20.862413 -98.262344 -1.57 1.57 0</pose>
-    </include>
-
-    <include>
-      <uri>model://april_tag_16</uri>
-      <pose>11.540299 20.861324 -98.004524 -1.570794 1.071207 -0.000795</pose>
-    </include> -->
-
-    <include>
-      <uri>model://april_tag_13</uri>
-      <pose>12.709688 20.860392 -97.422226 -1.57 1.57 0</pose>
-    </include>
-
-    <include>
-      <uri>model://april_tag_14</uri>
-      <pose>12.673615 20.860420 -98.409119 -1.57 1.57 0</pose>
-    </include>
-
-    <!-- Left side tags 19-26 -->
+    <!-- Left side tags 15-18 -->
     <include>
       <uri>model://april_tag_15</uri>
       <pose>7.221472 23.136705 -97.422913 1.57 1.57 0</pose>
@@ -178,25 +158,25 @@
       <pose>12.676511 23.129576 -98.408775 1.57 1.57 0</pose>
     </include>
 
-    <!-- Rear side -->
+    <!-- Rear side 19-22 -->
     <include>
       <uri>model://april_tag_19</uri>
-      <pose>12.950822 22.905254 -98.358856 -3.14 1.57 0</pose>
+      <pose>12.95 22.905254 -98.358856 -3.14 1.57 0</pose>
     </include>
 
     <include>
       <uri>model://april_tag_20</uri>
-      <pose>12.948662 21.086338 -98.361061 -3.14 1.57 0</pose>
+      <pose>12.95 21.086338 -98.361061 -3.14 1.57 0</pose>
     </include>
 
     <include>
       <uri>model://april_tag_21</uri>
-      <pose>12.948462 21.472149 -97.340057 -3.14 1.57 0</pose>
+      <pose>12.95 21.472149 -97.340057 -3.14 1.57 0</pose>
     </include>
 
     <include>
       <uri>model://april_tag_22</uri>
-      <pose>12.950131 22.520018 -97.340057 -3.14 1.57 0</pose>
+      <pose>12.95 22.520018 -97.340057 -3.14 1.57 0</pose>
     </include>
 
     <plugin name="underwater_current_plugin" filename="libuuv_underwater_current_ros_plugin.so">
